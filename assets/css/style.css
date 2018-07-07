@@ -135,7 +135,7 @@ placeholder{
     width: 201px;
     margin:20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .name{
         width:100%; 
         float: none;
@@ -147,5 +147,14 @@ placeholder{
         float:none;
         list-style-type: none;
         margin: 0px 0px 0px 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (min-width:769px) {
+    .main-content{
+        margin: 30px 33% 30px 15%;
+           
     }
 }
